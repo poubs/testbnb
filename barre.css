@@ -1,0 +1,93 @@
+#jolBarreHaut {
+border-bottom:1px solid #000;
+border-top:1px solid #888;
+background-color:#444;
+height:3px;
+font-size:0;
+line-height:3px;
+}
+#jolBarreMilieu {
+background:url(jol_barre_fond.jpg);
+background-color:#000;
+width:100%;
+border-collapse:collapse;
+border-spacing:0;
+height:19px;
+border-width:0;
+margin:0;
+padding:0;
+}
+#jolBarreMilieu tr { vertical-align:middle }
+#jolBarreMilieu td {
+font-family:Verdana, Helvetica, Arial, sans-serif;
+font-size:11px;
+white-space:nowrap;
+text-align:left;
+color:#eee;
+border:0;
+padding:0 0 0 4px;
+}
+#jolBarreBienvenueTd { width:250px }
+#jolBarreBienvenue { white-space:nowrap }
+#jolBarreBienvenue img {
+border:0;
+vertical-align:text-bottom;
+display:inline;
+margin:0 1px 0 0;
+}
+#jolBarreBienvenue span { color:#F4C846 }
+#jolBarreMenuTd {
+text-align:left;
+width:250px;
+background-image:url(jol_barre_deroulant.jpg);
+background-position:top right;
+background-repeat:no-repeat;
+padding:5px 0 0;
+}
+#jolBarreMenuTd span { padding-left:10px }
+#jolBarreMilieu #jolBarreConnectes {
+text-align:center;
+padding:0;
+}
+#jolBarreNavigation {
+font-family:Verdana, Helvetica, Arial, sans-serif;
+font-size:11px;
+background:#444;
+color:#eee;
+position:absolute;
+width:400px;
+right:4px;
+top:23px;
+text-align:left;
+border-top:1px solid #999;
+border-left:1px solid #999;
+border-right:1px solid #000;
+border-bottom:1px solid #000;
+-moz-opacity:0.95;
+display:none;
+z-index:200000;
+padding:0 0 10px 10px;
+}
+#jolBarreNavigation table { width:100% }
+#jolBarreNavigation td { padding:0; width:50% }
+#jolBarreNavigation a {
+color:#eee;
+font-weight:400;
+font-size:11px;
+}
+#jolBarreNavigation td.jolBarreMenuTitre {
+border-bottom:1px solid #ccc;
+color:#fff;
+padding-top:10px;
+padding-bottom:2px;
+}
+#jolBarreEspace { width:2px }
+#jolBarreBas {
+border-top:1px solid #888;
+border-bottom:2px solid #000;
+background-color:#444;
+height:3px;
+font-size:0;
+line-height:3px;
+}
+body,#jolBarreNavigation table { margin:0 }

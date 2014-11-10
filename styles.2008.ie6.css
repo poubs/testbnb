@@ -1,0 +1,11 @@
+div.articlesUnePages { margin-top:0px }
+#topVideos div.articlesUnePages { margin-top:-1px }
+a.articlesUneBouton { padding:2px 10px }
+#text-tools2 li { width: 50px; white-space:nowrap}
+div.actuReaction { width: 99% }
+#article table.basePagesAlpha, #article form.baseFiltres { width: 99% }
+#dernieres_actus div.nouvelle_capture { margin-left:3px }
+#contour_ombre_haut { height:11px; line-height:1px }
+#navigation_haut { margin-bottom:10px }
+#navigation_bas { margin-top:10px }
+body { behavior: url("/jolfiches/htcmime.php?file=csshover.htc") }
